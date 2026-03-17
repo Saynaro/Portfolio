@@ -61,7 +61,7 @@ const Contact = () => {
         </h2>
 
         <a
-          href="mailto:contact@example.com"
+          href="mailto:khalidsainaro@gmail.com"
           className="inline-flex items-center justify-center gap-4 bg-white text-dark px-8 py-5 rounded-full font-bold uppercase tracking-widest text-sm hover:bg-[var(--color-primary)] transition-colors duration-300"
         >
           <Mail size={18} /> Get In Touch
