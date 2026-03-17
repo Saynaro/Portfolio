@@ -6,6 +6,7 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import CustomCursor from './components/CustomCursor';
 import Nav from './components/Nav';
+import Skills from './components/Skills';
 
 function App() {
   useEffect(() => {
@@ -39,6 +40,7 @@ function App() {
       <main>
         <Hero />
         <About />
+        <Skills />
         <Projects />
         <Contact />
       </main>
