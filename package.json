@@ -10,7 +10,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "shipit": "git add . && git commit -m 'build: update site' && git push origin main && npm run deploy"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
