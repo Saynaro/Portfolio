@@ -88,6 +88,7 @@ If you'd like to reach out, feel free to use the contact form on my website or c
 
 - **Portfolio**: [Saynaro Portfolio](https://Saynaro.github.io/Portfolio/)
 - **Projects**:
+  - [E-Commerce](https://site-magasin.vercel.app/)
   - [SainAir](https://sainair.onrender.com)
   - [Guides Jeux Vidéo](https://guideprojet.onrender.com/)
   - [School IT](https://school-it-omega.vercel.app/)
