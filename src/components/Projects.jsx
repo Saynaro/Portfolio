@@ -7,35 +7,45 @@ import { ExternalLink } from 'lucide-react';
 import sainairImg from '../assets/sainair.png';
 import gameGuideImg from '../assets/GameGuide.png';
 import ktSegmentImg from '../assets/KTSegment.png';
+import ecommerceImg from '../assets/ecommerce.png';
 
 gsap.registerPlugin(ScrollTrigger);
 
 const projects = [
   {
     id: 1,
+    title: 'E-Commerce',
+    type: 'E-Commerce Platform',
+    url: 'https://site-magasin.vercel.app/',
+    imageUrl: ecommerceImg,
+    tech: ['Full responsive', 'HTML', 'CSS', 'JS', 'Node.js', 'Express', 'PostgreSQL', 'JWT', 'REST API', 'Prisma', 'Bcrypt'],
+    color: '#5fff62ff'
+  },
+  {
+    id: 2,
     title: 'Site Climatisation',
     type: 'Corporate Website',
     url: 'https://sainair.com',
     imageUrl: sainairImg,
-    tech: ['React', 'Tailwind', 'Responsive'],
+    tech: ['HTML', 'CSS', 'JS', 'Responsive', 'SEO', 'Contact Form', 'UI/UX'],
     color: '#00ffcc'
   },
   {
-    id: 2,
+    id: 3,
     title: 'Guides de Jeux Video',
     type: 'Fullstack Platform',
     url: 'https://guideprojet.onrender.com/',
     imageUrl: gameGuideImg,
-    tech: ['Node.js', 'Express', 'React', 'Fullstack'],
+    tech: ['Node.js', 'Express', 'HTML', 'CSS', 'JS', 'Fullstack'],
     color: '#ff00cc'
   },
   {
-    id: 3,
+    id: 4,
     title: 'School IT Site',
     type: 'Educational Portal',
     url: 'https://school-it-omega.vercel.app/',
     imageUrl: ktSegmentImg,
-    tech: ['Full Responsive', 'Contact Form', 'UI/UX'],
+    tech: ['HTML', 'CSS', 'JS', 'Full Responsive', 'Contact Form', 'UI/UX'],
     color: '#00ccff'
   }
 ];
