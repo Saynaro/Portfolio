@@ -5,8 +5,8 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
 
 const stack = [
-  'React', 'Node.js', 'Express', 'Tailwind', 'GSAP', 
-  'Prisma', 'MySQL', 'PostgreSQL', 'Figma', 'JavaScript (ES6)', 
+  'React', 'Node.js', 'Express', 'Tailwind', 'GSAP',
+  'Prisma', 'MySQL', 'PostgreSQL', 'Figma', 'JavaScript (ES6)',
   'HTML5 & CSS3', 'JWT', 'REST API', 'Redis', 'Docker',
   'Socket.IO', 'Hetzner', 'Vercel', 'OAuth'
 ];
@@ -18,7 +18,7 @@ const About = () => {
 
   useEffect(() => {
     const el = containerRef.current;
-    
+
     // Animate text reveal relative to scroll
     gsap.fromTo(
       textRef.current,
@@ -49,17 +49,17 @@ const About = () => {
   return (
     <section id="about" className="py-32 relative bg-dark-lighter overflow-hidden" ref={containerRef}>
       <div className="max-w-7xl mx-auto px-6 sm:px-10">
-        
+
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12 sm:gap-4 border-t border-gray-800 pt-16">
           <div className="md:col-span-4 uppercase text-sm tracking-[0.2em] text-gray-400 font-semibold mt-2">
-            🚀 À propos de moi
+            À propos de moi
           </div>
-          
+
           <div ref={textRef} className="md:col-span-8 space-y-6 text-gray-200">
             <p className="text-2xl sm:text-3xl md:text-4xl font-medium leading-tight">
               Développeur <span className="text-[var(--color-primary)]">Fullstack</span> passionné par l'écosystème JavaScript, je conçois des applications web modernes, sécurisées et hautement interactives avec une forte orientation produit.
             </p>
-            
+
             <div className="text-gray-400 text-lg sm:text-xl font-light pt-4 space-y-4">
               <p className="font-medium text-gray-300">Je m’intéresse particulièrement à :</p>
               <ul className="list-disc pl-6 space-y-2 text-gray-400">
@@ -67,9 +67,9 @@ const About = () => {
                 <li>L'optimisation des performances et le temps réel (WebSockets, Caching)</li>
                 <li>Les architectures backend robustes et la conteneurisation (Docker, DevOps)</li>
               </ul>
-              
+
               <p className="pt-6 text-xl sm:text-2xl font-light text-gray-300 leading-relaxed">
-                <span className="text-[var(--color-primary)]">👉 Mon objectif :</span> transformer des idées complexes en produits fluides, performants et centrés sur l'expérience utilisateur.
+                <span className="text-[var(--color-primary)]"> Mon objectif :</span> transformer des idées complexes en produits fluides, performants et centrés sur l'expérience utilisateur.
               </p>
             </div>
           </div>
@@ -86,7 +86,7 @@ const About = () => {
           {stack.map((item, i) => <span key={i + stack.length}>{item}</span>)}
         </div>
       </div>
-      
+
     </section>
   );
 };

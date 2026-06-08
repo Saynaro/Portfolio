@@ -46,11 +46,11 @@ const Hero = () => {
           Disponible à l'international
         </div>
 
-        <h1 className="text-6xl sm:text-8xl md:text-[10vw] font-bold leading-[0.9] tracking-tighter uppercase whitespace-nowrap">
-          <div className="overflow-hidden">
+        <h1 className="text-[11vw] sm:text-8xl md:text-[10vw] font-bold leading-[1.1] sm:leading-[0.9] tracking-tighter uppercase whitespace-nowrap">
+          <div className="overflow-hidden py-2">
             <span ref={addToRefs} className="block">Développeur</span>
           </div>
-          <div className="overflow-hidden flex items-center gap-4 sm:gap-8">
+          <div className="overflow-hidden flex items-center gap-4 sm:gap-8 py-2">
             <span ref={addToRefs} className="block text-stroke text-transparent">Full Stack</span>
           </div>
         </h1>
