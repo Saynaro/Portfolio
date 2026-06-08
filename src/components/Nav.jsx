@@ -40,9 +40,9 @@ const Nav = () => {
         
         {/* Desktop Menu */}
         <div className="hidden md:flex gap-8 text-sm font-medium tracking-wide text-gray-300 relative z-50">
-          <a href="#about" className="hover:text-white transition-colors duration-300">About</a>
-          <a href="#skills" className="hover:text-white transition-colors duration-300">Skills</a>
-          <a href="#projects" className="hover:text-white transition-colors duration-300">Projects</a>
+          <a href="#about" className="hover:text-white transition-colors duration-300">À propos</a>
+          <a href="#skills" className="hover:text-white transition-colors duration-300">Compétences</a>
+          <a href="#projects" className="hover:text-white transition-colors duration-300">Projets</a>
           <a href="#contact" className="hover:text-white transition-colors duration-300">Contact</a>
         </div>
         
@@ -57,9 +57,9 @@ const Nav = () => {
         className={`fixed inset-0 bg-dark z-40 flex flex-col items-center justify-center transition-all duration-500 ease-in-out md:hidden ${isOpen ? 'opacity-100 visible' : 'opacity-0 invisible'}`}
       >
         <div className="flex flex-col gap-10 text-3xl font-medium tracking-wide text-gray-200 text-center">
-          <a href="#about" onClick={closeMenu} className="hover:text-white active:text-[var(--color-primary)] hover:scale-110 transition-all duration-300">About</a>
-          <a href="#skills" onClick={closeMenu} className="hover:text-white active:text-[var(--color-primary)] hover:scale-110 transition-all duration-300">Skills</a>
-          <a href="#projects" onClick={closeMenu} className="hover:text-white active:text-[var(--color-primary)] hover:scale-110 transition-all duration-300">Projects</a>
+          <a href="#about" onClick={closeMenu} className="hover:text-white active:text-[var(--color-primary)] hover:scale-110 transition-all duration-300">À propos</a>
+          <a href="#skills" onClick={closeMenu} className="hover:text-white active:text-[var(--color-primary)] hover:scale-110 transition-all duration-300">Compétences</a>
+          <a href="#projects" onClick={closeMenu} className="hover:text-white active:text-[var(--color-primary)] hover:scale-110 transition-all duration-300">Projets</a>
           <a href="#contact" onClick={closeMenu} className="hover:text-white active:text-[var(--color-primary)] hover:scale-110 transition-all duration-300">Contact</a>
         </div>
       </div>

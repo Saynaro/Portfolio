@@ -4,6 +4,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { ExternalLink } from 'lucide-react';
 
 // Import local project images
+import saasproImg from '../assets/saaspro.png';
 import sainairImg from '../assets/sainair.png';
 import gameGuideImg from '../assets/GameGuide.png';
 import ktSegmentImg from '../assets/KTSegment.png';
@@ -13,39 +14,48 @@ gsap.registerPlugin(ScrollTrigger);
 
 const projects = [
   {
+    id: 5,
+    title: 'SaaSPro',
+    type: 'Plateforme de gestion de tâches SaaS',
+    url: 'https://saaspro.online',
+    imageUrl: saasproImg,
+    tech: ['React 19', 'Node.js', 'PostgreSQL', 'Prisma', 'Redis', 'Docker', 'Socket.IO', 'JWT', 'Google OAuth', 'Cloudinary', 'Vite', 'Tailwind', 'Vercel', 'Hetzner'],
+    color: '#4f46e5'
+  },
+  {
     id: 1,
     title: 'E-Commerce',
-    type: 'E-Commerce Platform',
+    type: 'Plateforme E-Commerce',
     url: 'https://site-magasin.vercel.app/',
     imageUrl: ecommerceImg,
-    tech: ['Full responsive', 'HTML', 'CSS', 'JS', 'Node.js', 'Express', 'PostgreSQL', 'JWT', 'REST API', 'Prisma', 'Bcrypt'],
+    tech: ['Entièrement adaptatif', 'HTML', 'CSS', 'JS', 'Node.js', 'Express', 'PostgreSQL', 'JWT', 'REST API', 'Prisma', 'Bcrypt'],
     color: '#5fff62ff'
   },
   {
     id: 2,
     title: 'Site Climatisation',
-    type: 'Corporate Website',
+    type: 'Site Vitrine',
     url: 'https://sainair.com',
     imageUrl: sainairImg,
-    tech: ['HTML', 'CSS', 'JS', 'Responsive', 'SEO', 'Contact Form', 'UI/UX'],
+    tech: ['HTML', 'CSS', 'JS', 'Adaptatif', 'SEO', 'Formulaire de contact', 'UI/UX'],
     color: '#00ffcc'
   },
   {
     id: 3,
     title: 'Guides de Jeux Video',
-    type: 'Fullstack Platform',
+    type: 'Plateforme Full Stack',
     url: 'https://guideprojet.onrender.com/',
     imageUrl: gameGuideImg,
-    tech: ['Node.js', 'Express', 'HTML', 'CSS', 'JS', 'Fullstack'],
+    tech: ['Node.js', 'Express', 'HTML', 'CSS', 'JS', 'Full Stack'],
     color: '#ff00cc'
   },
   {
     id: 4,
     title: 'School IT Site',
-    type: 'Educational Portal',
+    type: 'Portail Éducatif',
     url: 'https://school-it-omega.vercel.app/',
     imageUrl: ktSegmentImg,
-    tech: ['HTML', 'CSS', 'JS', 'Full Responsive', 'Contact Form', 'UI/UX'],
+    tech: ['HTML', 'CSS', 'JS', 'Entièrement adaptatif', 'Formulaire de contact', 'UI/UX'],
     color: '#00ccff'
   }
 ];
@@ -90,9 +100,9 @@ const Projects = () => {
       <div className="max-w-7xl mx-auto px-6 sm:px-10">
 
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end mb-24">
-          <h2 className="text-5xl sm:text-7xl font-bold tracking-tighter uppercase">Selected<br /><span className="text-stroke text-transparent">Works</span></h2>
+          <h2 className="text-5xl sm:text-7xl font-bold tracking-tighter uppercase">Projets<br /><span className="text-stroke text-transparent">Sélectionnés</span></h2>
           <p className="max-w-xs text-gray-400 mt-6 sm:mt-0 font-light text-lg">
-            A showcase of my recent fullstack and frontend projects, built with modern web technologies.
+            Une vitrine de mes projets récents en full stack et front-end, conçus avec des technologies web modernes.
           </p>
         </div>
 
@@ -142,7 +152,7 @@ const Projects = () => {
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-4 text-white uppercase tracking-widest text-sm font-semibold max-w-max pb-1 border-b border-white hover:border-[var(--color-primary)] hover:text-[var(--color-primary)] transition-all duration-300 transform group-hover:translate-x-2"
                 >
-                  Visit Live Site <ExternalLink size={16} />
+                  Visiter le site <ExternalLink size={16} />
                 </a>
               </div>
 

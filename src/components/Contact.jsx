@@ -53,24 +53,24 @@ const Contact = () => {
 
       <div className="max-w-7xl mx-auto px-6 sm:px-10 w-full flex-grow flex flex-col justify-center items-center text-center relative z-10">
         <div className="text-sm tracking-[0.3em] uppercase text-gray-500 font-semibold mb-8">
-          Next Steps
+          Prochaines étapes
         </div>
 
         <h2 ref={textRef} className="text-6xl sm:text-8xl md:text-[8vw] font-bold tracking-tighter uppercase leading-[0.9] mb-12">
-          Let's <span className="text-stroke text-transparent">Talk</span>
+          Parlons <span className="text-stroke text-transparent">ensemble</span>
         </h2>
 
         <a
           href="mailto:khalidsainaro@gmail.com"
           className="inline-flex items-center justify-center gap-4 bg-white text-dark px-8 py-5 rounded-full font-bold uppercase tracking-widest text-sm hover:bg-[var(--color-primary)] transition-colors duration-300"
         >
-          <Mail size={18} /> Get In Touch
+          <Mail size={18} /> Prendre contact
         </a>
       </div>
 
       <footer ref={footerRef} className="max-w-7xl mx-auto px-6 sm:px-10 w-full mt-24 border-t border-gray-800 pt-8 flex flex-col sm:flex-row justify-between items-center gap-6 relative z-10">
         <div className="text-gray-500 text-sm font-medium">
-          &copy; {new Date().getFullYear()} Sainaro. All Rights Reserved.
+          &copy; {new Date().getFullYear()} Sainaro. Tous droits réservés.
         </div>
 
         <div className="flex items-center gap-8">

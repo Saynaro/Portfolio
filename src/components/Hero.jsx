@@ -43,28 +43,28 @@ const Hero = () => {
       <div className="max-w-7xl mx-auto px-6 sm:px-10 w-full relative z-10 flex flex-col justify-center h-full">
         
         <div className="mb-6 hero-fade-in text-[var(--color-primary)] font-medium tracking-wider uppercase text-sm sm:text-base">
-          Based in the World
+          Disponible à l'international
         </div>
 
         <h1 className="text-6xl sm:text-8xl md:text-[10vw] font-bold leading-[0.9] tracking-tighter uppercase whitespace-nowrap">
           <div className="overflow-hidden">
-            <span ref={addToRefs} className="block">Full Stack</span>
+            <span ref={addToRefs} className="block">Développeur</span>
           </div>
           <div className="overflow-hidden flex items-center gap-4 sm:gap-8">
-            <span ref={addToRefs} className="block text-stroke text-transparent">Developer</span>
+            <span ref={addToRefs} className="block text-stroke text-transparent">Full Stack</span>
           </div>
         </h1>
 
         <div className="mt-16 sm:mt-24 flex flex-col sm:flex-row justify-between items-start sm:items-end gap-10 hero-fade-in">
           <div className="max-w-md text-gray-400 text-lg sm:text-xl font-light leading-relaxed">
-            I craft immersive, high-performance web experiences blending modern development with sleek aesthetics. Let's build something exceptional.
+            Je conçois des expériences web immersives et performantes, alliant développement moderne et esthétique épurée. Créons quelque chose d'exceptionnel.
           </div>
           
           <a href="#projects" className="group flex items-center gap-4 hover:gap-6 transition-all duration-300">
             <div className="w-14 h-14 rounded-full border border-gray-600 flex items-center justify-center group-hover:border-[var(--color-primary)] group-hover:bg-[var(--color-primary)] group-hover:text-dark transition-all duration-300">
               <ArrowDownRight strokeWidth={1.5} />
             </div>
-            <span className="text-sm uppercase tracking-widest font-medium group-hover:text-[var(--color-primary)] transition-colors duration-300">View Work</span>
+            <span className="text-sm uppercase tracking-widest font-medium group-hover:text-[var(--color-primary)] transition-colors duration-300">Voir mes projets</span>
           </a>
         </div>
       </div>

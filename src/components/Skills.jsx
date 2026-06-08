@@ -1,7 +1,8 @@
 import React from 'react';
 import { 
   SiReact, SiNodedotjs, SiExpress, SiTailwindcss, SiGreensock, 
-  SiPrisma, SiMysql, SiPostgresql, SiFigma 
+  SiPrisma, SiMysql, SiPostgresql, SiFigma,
+  SiRedis, SiDocker, SiSocketdotio, SiHetzner, SiVercel, SiOpenid
 } from 'react-icons/si';
 import { FaHtml5, FaCss3Alt, FaJs } from 'react-icons/fa';
 
@@ -17,7 +18,13 @@ const skills = [
   { name: 'Figma', icon: SiFigma, color: '#F24E1E' },
   { name: 'JavaScript', icon: FaJs, color: '#F7DF1E' },
   { name: 'HTML5', icon: FaHtml5, color: '#E34F26' },
-  { name: 'CSS3', icon: FaCss3Alt, color: '#1572B6' }
+  { name: 'CSS3', icon: FaCss3Alt, color: '#1572B6' },
+  { name: 'Redis', icon: SiRedis, color: '#DC382D' },
+  { name: 'Docker', icon: SiDocker, color: '#2496ED' },
+  { name: 'Socket.io', icon: SiSocketdotio, color: '#FFFFFF' },
+  { name: 'Hetzner', icon: SiHetzner, color: '#D50C22' },
+  { name: 'Vercel', icon: SiVercel, color: '#FFFFFF' },
+  { name: 'OAuth', icon: SiOpenid, color: '#F78C40' }
 ];
 
 const Skills = () => {
@@ -26,10 +33,10 @@ const Skills = () => {
       <div className="max-w-7xl mx-auto px-6 sm:px-10">
         <div className="flex flex-col mb-16">
           <h2 className="text-4xl sm:text-6xl font-bold tracking-tighter uppercase mb-4">
-            My <span className="text-[var(--color-primary)]">Arsenal</span>
+            Mon <span className="text-[var(--color-primary)]">Arsenal</span>
           </h2>
           <p className="text-gray-400 font-light text-lg max-w-2xl">
-            The tools and technologies I use to build robust, scalable, and visually stunning digital experiences.
+            Les outils et technologies que j'utilise pour concevoir des expériences numériques robustes, évolutives et visuellement époustouflantes.
           </p>
         </div>
         

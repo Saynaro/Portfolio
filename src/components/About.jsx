@@ -7,7 +7,8 @@ gsap.registerPlugin(ScrollTrigger);
 const stack = [
   'React', 'Node.js', 'Express', 'Tailwind', 'GSAP', 
   'Prisma', 'MySQL', 'PostgreSQL', 'Figma', 'JavaScript (ES6)', 
-  'HTML5 & CSS3', 'JWT', 'REST API'
+  'HTML5 & CSS3', 'JWT', 'REST API', 'Redis', 'Docker',
+  'Socket.IO', 'Hetzner', 'Vercel', 'OAuth'
 ];
 
 const About = () => {
@@ -51,16 +52,26 @@ const About = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12 sm:gap-4 border-t border-gray-800 pt-16">
           <div className="md:col-span-4 uppercase text-sm tracking-[0.2em] text-gray-400 font-semibold mt-2">
-            Who I Am
+            🚀 À propos de moi
           </div>
           
-          <div ref={textRef} className="md:col-span-8 space-y-8 text-2xl sm:text-4xl md:text-5xl font-medium leading-tight text-gray-200">
-            <p>
-              I am a <span className="text-[var(--color-primary)]">Fullstack Web Developer</span> passionate about crafting digital experiences that harmonize clean code with stunning aesthetics.
+          <div ref={textRef} className="md:col-span-8 space-y-6 text-gray-200">
+            <p className="text-2xl sm:text-3xl md:text-4xl font-medium leading-tight">
+              Développeur <span className="text-[var(--color-primary)]">Fullstack</span> passionné par l'écosystème JavaScript, je conçois des applications web modernes, sécurisées et hautement interactives avec une forte orientation produit.
             </p>
-            <p className="text-gray-500 text-xl sm:text-2xl pt-4 font-light max-w-2xl leading-relaxed">
-              My expertise spans the entire development lifecycle—from responsive frontends built with modern libraries to robust backends powered by scalable infrastructure and secure APIs.
-            </p>
+            
+            <div className="text-gray-400 text-lg sm:text-xl font-light pt-4 space-y-4">
+              <p className="font-medium text-gray-300">Je m’intéresse particulièrement à :</p>
+              <ul className="list-disc pl-6 space-y-2 text-gray-400">
+                <li>La conception de SaaS scalables & multi-tenant</li>
+                <li>L'optimisation des performances et le temps réel (WebSockets, Caching)</li>
+                <li>Les architectures backend robustes et la conteneurisation (Docker, DevOps)</li>
+              </ul>
+              
+              <p className="pt-6 text-xl sm:text-2xl font-light text-gray-300 leading-relaxed">
+                <span className="text-[var(--color-primary)]">👉 Mon objectif :</span> transformer des idées complexes en produits fluides, performants et centrés sur l'expérience utilisateur.
+              </p>
+            </div>
           </div>
         </div>
 
